@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -32,6 +33,15 @@ public class UIWindowViewBase : UIViewBase {
     /// 下一个要打开的窗口
     /// </summary>
     protected WindowUIType NextOpenWindow = WindowUIType.None;
+
+    protected override void OnBtnClick(GameObject go)
+    {
+        base.OnBtnClick(go);
+        if (go.name.Equals("btn_Close",StringComparison.CurrentCultureIgnoreCase))
+        {
+            Close();
+        }
+    }
 
     /// <summary>
     /// 关闭窗口

@@ -75,7 +75,7 @@ GameObject:
   - component: {fileID: 114871138086762042}
   - component: {fileID: 114686004110398268}
   m_Layer: 5
-  m_Name: Btn_Reg
+  m_Name: btnReg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -194,7 +194,7 @@ GameObject:
   - component: {fileID: 114926087921600880}
   - component: {fileID: 114412372373835956}
   m_Layer: 5
-  m_Name: Btn_LogOn
+  m_Name: btnLogOn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
